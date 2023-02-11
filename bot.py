@@ -30,7 +30,7 @@ def chat(update, context):
 
     context.bot.send_message(chat_id=update.effective_chat.id, text=response)
 
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "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"
 
 bot = telegram.Bot(token="6048217054:AAGCyQZ9AlPt_pCJ6BH4YeQp_NJT7rYssaM")
 
